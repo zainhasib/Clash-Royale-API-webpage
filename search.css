@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0; 
+    outline: none; 
+}
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+.dark-nav a {
+    text-decoration: none;
+    color: inherit;    
+}
+
+.active {
+    color: rgb(255, 255, 255);
+}
+
+.float-right {
+    float: right;
+    clear: both;
+    position: relative;
+}
+
+.dark-nav i {
+    padding: 0 20px;
+}
+
+.dark-nav ul li {
+    display: inline; 
+    padding: 30px;   
+}
+
+.dark-nav ul{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.dark-nav {
+    background: rgb(41, 41, 41);
+    color: rgb(187, 187, 187);
+    font-family: 'Dosis', sans-serif;
+    min-height: 30px;
+    position: relative;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container-head {
+    width: 90%;
+    font-family: 'Supermercado One', cursive;
+    margin: auto;
+}
+
+#header2 {
+    position: relative;
+    height: 20vh;
+    background: rgb(228, 228, 228);    
+    box-shadow: 0px 4px 3px rgb(61, 61, 61);
+    z-index: 100;
+}
+
+button[type='submit'] {
+    padding: 5px;
+    border-radius: 52px;
+    background: rgb(44, 125, 218);
+    color: rgb(243, 243, 243);
+    border: none;
+    box-shadow: 0 0 5px rgb(102, 102, 102);
+    font-family: Helvetica, Arial, sans-serif;
+}   
+
+input[type='text'] {
+    padding: 9px;
+    border-radius:52px;
+    outline: none
+}
+
+.search {
+    float: right;
+    position: absolute;
+    right: 40px;  
+    top: 50%; 
+    transform: translateY(-50%);    
+}
+
+.horizontal-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section {
+    background: url('background.jpg');
+    background-size: cover;
+    word-wrap: normal;
+}
+
+.bg-grey {
+    background: rgb(224, 224, 224);
+    min-height: 600px;
+    opacity: 0.7;
+}
+
+.content { 
+    margin-top: 20px;
+    overflow-wrap: break-word;
+}
+
+#blur-border {
+    box-shadow: 0px 0px 2px 2px rgb(61, 61, 61);
+    overflow: hidden;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px 20px;
+}
+
+tr:nth-child(odd) {
+    background-color: #a8a8a8;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.title {
+    background: rgb(255, 249, 249);    
+    padding: 18px;
+    position: relative;
+}
+
+.head-player {
+    padding: 24px 24px 24px 0px;
+}
+
+
